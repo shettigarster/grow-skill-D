@@ -52,6 +52,21 @@ Output: 2 3 5 */
 
 
 }*/
+		/* 
+		 ✅ Q3. Digit Transformation Logic (Advanced)
+Write a program to:
+1.	Take a number n 
+2.	Traverse digits from right to left 
+3.	Apply following rules: 
+o	If digit is at odd place  AND digit ≤ 4 → multiply by 2 
+o	If digit is at even place→ replace with 1 
+o	Else keep at it is i.e digit at odd place and >4
+4.	Form a new number from the result 
+👉 Example:
+Input: n = 57243
+
+		 */
+		
 		String num="57243";
 		String result ="";
 		int pos =1;
